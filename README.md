@@ -1,51 +1,48 @@
-<img height="56px" src="https://www.usememos.com/full-logo-landscape.png" alt="Memos" />
-
-A privacy-first, lightweight note-taking service. Easily capture and share your great thoughts.
-
-<a href="https://www.usememos.com">Home Page</a> •
-<a href="https://www.usememos.com/blog">Blogs</a> •
-<a href="https://www.usememos.com/docs">Docs</a> •
-<a href="https://demo.usememos.com/">Live Demo</a>
-
-<p>
-  <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
-  <a href="https://hosted.weblate.org/engage/memos-i18n/"><img src="https://hosted.weblate.org/widget/memos-i18n/english/svg-badge.svg" alt="Translation status" /></a>
-  <a href="https://discord.gg/tfPJa4UmAv"><img alt="Discord" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5" /></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/75302e03c8e45f10cb9f2c074f9bdf86e4846d4ac0b82dcc3ec3baa4145347c5/68747470733a2f2f7777772e7573656d656d6f732e636f6d2f66756c6c2d6c6f676f2d6c616e6473636170652e706e67"><img height="56px" src="https://camo.githubusercontent.com/75302e03c8e45f10cb9f2c074f9bdf86e4846d4ac0b82dcc3ec3baa4145347c5/68747470733a2f2f7777772e7573656d656d6f732e636f6d2f66756c6c2d6c6f676f2d6c616e6473636170652e706e67" alt="备忘录" data-canonical-src="https://www.usememos.com/full-logo-landscape.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私优先的轻量级笔记服务。轻松捕捉并分享您的精彩想法。</font></font></p>
+<p dir="auto"><a href="https://www.usememos.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://www.usememos.com/blog" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://www.usememos.com/docs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+</font></font><a href="https://demo.usememos.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现场演示</font></font></a></p>
+<p dir="auto">
+  <a href="https://hub.docker.com/r/neosmemo/memos" rel="nofollow"><img alt="Docker 拉取" src="https://camo.githubusercontent.com/4d9959a2a0778a8c0c3dafd7f74f4bc3a2bb5b989e7dfac3e2f75f99c491946b/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f6e656f736d656d6f2f6d656d6f732e737667" data-canonical-src="https://img.shields.io/docker/pulls/neosmemo/memos.svg" style="max-width: 100%;"></a>
+  <a href="https://hosted.weblate.org/engage/memos-i18n/" rel="nofollow"><img src="https://camo.githubusercontent.com/9e9b5109b41a780dfa4bfd1d0f11afa2ea9080d7e3a319d171dcc2bc7551dd02/68747470733a2f2f686f737465642e7765626c6174652e6f72672f7769646765742f6d656d6f732d6931386e2f656e676c6973682f7376672d62616467652e737667" alt="翻译状态" data-canonical-src="https://hosted.weblate.org/widget/memos-i18n/english/svg-badge.svg" style="max-width: 100%;"></a>
+  <a href="https://discord.gg/tfPJa4UmAv" rel="nofollow"><img alt="不和谐" src="https://camo.githubusercontent.com/4de20bfe7081d33e31ef01bc2040e5a3adead90d3afbeaab8c3ba8c5f065ff23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646973636f72642d636861742d3538363566323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d663566356635" data-canonical-src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&amp;logoColor=f5f5f5" style="max-width: 100%;"></a>
 </p>
-
-![demo](https://www.usememos.com/demo.png)
-
-## Key points
-
-- **Open source and free forever**. Embrace a future where creativity knows no boundaries with our open-source solution – free today, tomorrow, and always.
-- **Self-hosting with Docker in just seconds**. Enjoy the flexibility, scalability, and ease of setup that Docker provides, allowing you to have full control over your data and privacy.
-- **Pure text with added Markdown support.** Say goodbye to the overwhelming mental burden of rich formatting and embrace a minimalist approach.
-- **Customize and share your notes effortlessly**. With our intuitive sharing features, you can easily collaborate and distribute your notes with others.
-- **RESTful API for third-party services.** Embrace the power of integration and unleash new possibilities with our RESTful API support.
-
-## Deploy with Docker in seconds
-
-```bash
-docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable
-```
-
-> The `~/.memos/` directory will be used as the data directory on your local machine, while `/var/opt/memos` is the directory of the volume in Docker and should not be modified.
-
-Learn more about [other installation methods](https://www.usememos.com/docs/install).
-
-## Contribution
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. We greatly appreciate any contributions you make. Thank you for being a part of our community! 🥰
-
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5ce8c14391d98f993a094051b59eeff3bf4f675462130670c68e2fa4a12c5b95/68747470733a2f2f7777772e7573656d656d6f732e636f6d2f64656d6f2e706e67"><img src="https://camo.githubusercontent.com/5ce8c14391d98f993a094051b59eeff3bf4f675462130670c68e2fa4a12c5b95/68747470733a2f2f7777772e7573656d656d6f732e636f6d2f64656d6f2e706e67" alt="演示" data-canonical-src="https://www.usememos.com/demo.png" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-key-points" class="anchor" aria-hidden="true" tabindex="-1" href="#key-points"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键点</font></font></h2>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源且永久免费</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。通过我们的开源解决方案拥抱创造力无国界的未来——今天、明天、永远免费。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需几秒钟即可使用 Docker 自托管</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。享受 Docker 提供的灵活性、可扩展性和易于设置的优势，让您能够完全控制您的数据和隐私。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加了 Markdown 支持的纯文本。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">告别丰富格式带来的压倒性精神负担，拥抱极简主义方法。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松定制和分享您的笔记</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。借助我们直观的共享功能，您可以轻松地与其他人协作和分发您的笔记。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于第三方服务的 RESTful API。</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">借助我们的 RESTful API 支持，拥抱集成的力量并释放新的可能性。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-deploy-with-docker-in-seconds" class="anchor" aria-hidden="true" tabindex="-1" href="#deploy-with-docker-in-seconds"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Docker 在几秒钟内完成部署</font></font></h2>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker run -d --name memos -p 5230:5230 -v <span class="pl-k">~</span>/.memos/:/var/opt/memos neosmemo/memos:stable</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>~/.memos/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录将用作本地计算机上的数据目录，而该</font></font><code>/var/opt/memos</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录是 Docker 中卷的目录，不应修改。</font></font></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.usememos.com/docs/install" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解有关其他安装方法</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的更多信息</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contribution" class="anchor" aria-hidden="true" tabindex="-1" href="#contribution"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献使开源社区成为学习、启发和创造的绝佳场所。我们非常感谢您所做的任何贡献。感谢您成为我们社区的一部分！ 🥰</font></font></p>
 <a href="https://github.com/usememos/memos/graphs/contributors">
-  <img src="https://contri-graphy.yourselfhosted.com/graph?repo=usememos/memos&format=svg" />
+  <img src="https://camo.githubusercontent.com/1fc684f6df7f84d14e8786e8e66978c3dcd684488fbe805df211c184f8d6c74f/68747470733a2f2f636f6e7472692d6772617068792e796f757273656c66686f737465642e636f6d2f67726170683f7265706f3d7573656d656d6f732f6d656d6f7326666f726d61743d737667" data-canonical-src="https://contri-graphy.yourselfhosted.com/graph?repo=usememos/memos&amp;format=svg" style="max-width: 100%;">
 </a>
-
-## Star history
-
-[![Star History Chart](https://api.star-history.com/svg?repos=usememos/memos&type=Date)](https://star-history.com/#usememos/memos&Date)
-
-## Other resources
-
-- [**Gomark**](https://github.com/yourselfhosted/gomark): A markdown parser written in Go for Memos. And its [WebAssembly version](https://github.com/yourselfhosted/gomark-wasm) is also available.
-- [**Bytebase**](https://www.bytebase.com): World's most advanced database DevOps and CI/CD for Developer, DBA and Platform Engineering teams. The GitLab/GitHub for database DevOps.
+<h2 tabindex="-1" dir="auto"><a id="user-content-star-history" class="anchor" aria-hidden="true" tabindex="-1" href="#star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明星历史</font></font></h2>
+<p dir="auto"><a href="https://star-history.com/#usememos/memos&amp;Date" rel="nofollow"><img src="https://camo.githubusercontent.com/da8178227bd7a27010ef23561b33b7a62102896e3b13b6c68242a976e4e186b2/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d7573656d656d6f732f6d656d6f7326747970653d44617465" alt="明星历史图" data-canonical-src="https://api.star-history.com/svg?repos=usememos/memos&amp;type=Date" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-other-resources" class="anchor" aria-hidden="true" tabindex="-1" href="#other-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他资源</font></font></h2>
+<ul dir="auto">
+<li><a href="https://github.com/yourselfhosted/gomark"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gomark</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：用 Go 编写的 Markdown 解析器，用于备忘录。而且它的</font></font><a href="https://github.com/yourselfhosted/gomark-wasm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebAssembly 版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可用。</font></font></li>
+<li><a href="https://www.bytebase.com" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bytebase</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：世界上最先进的数据库 DevOps 和 CI/CD，面向开发人员、DBA 和平台工程团队。用于数据库 DevOps 的 GitLab/GitHub。</font></font></li>
+</ul>
+</article></div>
